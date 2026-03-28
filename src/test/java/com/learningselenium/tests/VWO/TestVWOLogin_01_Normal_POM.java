@@ -17,7 +17,7 @@ public class TestVWOLogin_01_Normal_POM {
     // L
     // V
 
-    @Owner("PRAMOD")
+    @Owner("Ashutosh")
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test
     public void test_negative_vwo_login() {
@@ -37,7 +37,7 @@ public class TestVWOLogin_01_Normal_POM {
 
     }
 
-    @Owner("PRAMOD")
+    @Owner("Ashutosh")
     @Description("Verify that with valid email, pass,logins and open Dashboard page.")
     @Test
     public void test_positive_vwo_login() {
