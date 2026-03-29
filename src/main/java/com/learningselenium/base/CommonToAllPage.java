@@ -24,6 +24,10 @@ public class CommonToAllPage {
         getDriver().findElement(by).click();
     }
 
+    public void clickElement(WebElement element){
+        element.click();
+    }
+
     public void enterInput(By by, String key) {
         getDriver().findElement(by).sendKeys(key);
     }
@@ -39,5 +43,7 @@ public class CommonToAllPage {
     public String getText(WebElement by){
         return by.getText();
     }
+
+
 
 }
